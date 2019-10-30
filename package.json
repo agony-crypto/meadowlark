@@ -1,0 +1,26 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "Project to practice web development with nodejs and express",
+  "main": "meadowlark.js",
+  "scripts": {
+    "watch": "nodemon meadowlark.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agony-crypto/meadowlark.git"
+  },
+  "author": "Daniel Montecinos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agony-crypto/meadowlark/issues"
+  },
+  "homepage": "https://github.com/agony-crypto/meadowlark#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
